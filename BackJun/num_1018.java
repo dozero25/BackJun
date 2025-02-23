@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class num_1018 {
 
+    // 1.
     public static boolean[][] chess;
     public static int min = 64;
 
@@ -16,6 +17,7 @@ public class num_1018 {
 
         chess = new boolean[arr[0]][arr[1]];
 
+        // 2.
         for(int i = 0 ; i < chess.length; i++){
             String[] a = br.readLine().split("");
 
@@ -28,6 +30,7 @@ public class num_1018 {
             }
         }
 
+        // 4.
         for(int i = 0; i < arr[0] - 7; i++){
             for(int j = 0; j < arr[1] - 7; j++){
                 count(i, j);
@@ -41,6 +44,7 @@ public class num_1018 {
         bw.close();
     }
 
+    // 3.
     public static void count(int s1, int s2){
 
         int count = 0;
@@ -52,8 +56,10 @@ public class num_1018 {
                 if(a != chess[i][j]){
                     count++;
                 }
+                // 3-1.
                 a = !a;
             }
+            // 3-2.
             a = !a;
         }
         count = Math.min(count, 64 - count);

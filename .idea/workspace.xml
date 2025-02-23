@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd02a1f1-3e86-4a04-9fc7-f5ba2152d965" name="Changes" comment="" />
+    <list default="true" id="cd02a1f1-3e86-4a04-9fc7-f5ba2152d965" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackJun/num_1018.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_1018.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,11 +55,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/dozero/backjun",
+    "last_opened_file_path": "C:/dozero/JavaStudyintellij",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "XML"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,8 +75,7 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BackJun.Main" />
-      <module name="JavaStudyintellij" />
+      <option name="MAIN_CLASS_NAME" value="c.Main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BackJun.문제모음.*" />
