@@ -9,15 +9,12 @@ public class num_2869 {
 
         String[] arr = br.readLine().split(" ");
 
-        int up = Integer.parseInt(arr[0]);
-        int down = Integer.parseInt(arr[1]);
-        int arrive = Integer.parseInt(arr[2]);
+        double up = Integer.parseInt(arr[0]);
+        double down = Integer.parseInt(arr[1]);
+        double arrive = Integer.parseInt(arr[2]);
 
-        int day = (arrive - down) / (up - down);
-
-        if((arrive - down) % (up - down) != 0){
-            day++;
-        }
+        // 1.
+        int day = (int)Math.ceil((arrive - down) / (up - down));
 
         bw.write(day+"\n");
 

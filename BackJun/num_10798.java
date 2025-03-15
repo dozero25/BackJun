@@ -8,6 +8,7 @@ public class num_10798 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+        // 1.
         String[][] arr = new String[5][15];
 
         for(int i = 0; i < arr.length; i++){
@@ -26,6 +27,7 @@ public class num_10798 {
         int a = 0;
         int b = 0;
 
+        // 2.
         while(isFlag){
             if(a == 5 && b == 14){
                 break;

@@ -10,6 +10,7 @@ public class num_25206 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+        // 1.
         Map<String, Double> map = new HashMap<>();
 
         map.put("A+", 4.5);
@@ -25,6 +26,7 @@ public class num_25206 {
         Double total = 0.0;
         Double grade = 0.0;
 
+        // 2.
         for(int i = 0; i < 20; i++){
             String[] arr = br.readLine().split(" ");
 

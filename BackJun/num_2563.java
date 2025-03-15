@@ -11,11 +11,14 @@ public class num_2563 {
 
         int count = Integer.parseInt(br.readLine());
 
+        // 1.
         String[][] intArr = new String[100][100];
+
         for(int i = 0; i < intArr.length; i++){
             Arrays.fill(intArr[i], "x");
         }
 
+        // 2.
         for(int i = 0; i < count; i++){
             String[] arr = br.readLine().split(" ");
 
@@ -29,6 +32,7 @@ public class num_2563 {
             }
         }
 
+        // 3.
         int cnt = 0;
         for(int i = 0; i < intArr.length; i++){
             for(int j = 0; j < intArr[i].length; j++){

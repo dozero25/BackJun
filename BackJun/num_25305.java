@@ -12,7 +12,10 @@ public class num_25305 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+        // 1.
         int[] line = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+
+        // 2.
         List<Integer> list = Arrays.stream(br.readLine().split(" "))
                 .map(Integer::parseInt)
                 .sorted(Comparator.reverseOrder())

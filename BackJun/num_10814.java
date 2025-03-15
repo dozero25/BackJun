@@ -12,6 +12,7 @@ public class num_10814 {
         StringTokenizer st;
         String str;
 
+        // 1.
         int count = Integer.parseInt(br.readLine());
 
         String[][] arr = new String[count][2];
@@ -23,6 +24,7 @@ public class num_10814 {
             arr[i][1] = st.nextToken();
         }
 
+        // 2.
         Arrays.sort(arr, (n1, n2) -> {
             return Integer.parseInt(n1[0]) - Integer.parseInt(n2[0]);
         });

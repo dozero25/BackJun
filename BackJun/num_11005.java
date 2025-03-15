@@ -9,6 +9,7 @@ public class num_11005 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
+        // 1.
         String[] str = br.readLine().split(" ");
 
         int num1 = Integer.parseInt(str[0]);
@@ -16,6 +17,7 @@ public class num_11005 {
 
         List<Integer> list = new ArrayList<>();
 
+        // 2.
         while(true){
             list.add(num1 % num2);
             num1 = num1 / num2;
@@ -25,6 +27,7 @@ public class num_11005 {
             }
         }
 
+        // 3.
         StringBuilder sb = new StringBuilder();
 
         for(int i = 0; i < list.size(); i++){

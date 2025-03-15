@@ -11,11 +11,13 @@ public class num_1546 {
 
         int num = Integer.parseInt(br.readLine());
 
+        // 1.
         int[] arr = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
 
         int max = 0;
         double avg = 0.0;
 
+        // 2.
         for(int i = 0; i < arr.length; i++){
             max = Math.max(arr[i], max);
         }

@@ -11,10 +11,12 @@ public class num_10811 {
 
         int[] arr = new int[pocket];
 
+        // 1.
         for(int i = 0; i < pocket; i++){
             arr[i] = i + 1;
         }
 
+        // 2.
         for(int i = 0; i < num; i++){
             int c1 = sc.nextInt() - 1;
             int c2 = sc.nextInt() - 1;

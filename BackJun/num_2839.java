@@ -9,31 +9,45 @@ public class num_2839 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int num = Integer.parseInt(br.readLine());
-        int num1 = Integer.parseInt(br.readLine());
+        int num1 = num;
 
-        int count = 0;
-        while(num1 > 0){
-            if(num1 % 5 == 0){
-                count += num1 / 5;
-                System.out.println(count);
+        List<Integer> list = new ArrayList<>();
+        // 1.
+        while(num != 0){
+
+            if(num >= 3){
+                list.add(3);
+            }
+            num -= 3;
+
+            if(num == 1 || num == 2){
+                list.add(num);
                 break;
             }
-            if(num1 < 3){
-                System.out.println(-1);
-                break;
-            }
-            num1 -= 3;
-            count++;
         }
 
-        if(num == 4 || num == 7){
+        int n = 0;
+        int f = 0;
+        int t = 0;
+
+        // 2.
+        Collections.sort(list);
+
+        // 3.
+        for(int i = 0; i < list.size(); i++){
+            n += list.get(i);
+
+            if(n % 5 == 0){
+                f = n;
+            }
+            if(n % 3 == 0){
+                t = n;
+            }
+        }
+        if(f == 0 && t == 0){
             System.out.println(-1);
-        } else if(num % 5 == 0){
-            System.out.println(num / 5);
-        } else if(num % 5 == 1 || num % 5 == 3){
-            System.out.println(num / 5 +1);
-        } else if(num % 5 == 2 || num % 5 == 4){
-            System.out.println(num / 5 + 2);
+        } else {
+            System.out.println((f / 5) + (num1 - f) / 3);
         }
     }
 }

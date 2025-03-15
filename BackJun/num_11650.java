@@ -8,19 +8,19 @@ public class num_11650 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
+        // 1.
         int count = Integer.parseInt(br.readLine());
 
         int[][] arr = new int[count][2];
 
         for(int i = 0; i < arr.length; i++){
-
             String[] arr1 = br.readLine().split(" ");
 
             arr[i][0] = Integer.parseInt(arr1[0]);
             arr[i][1] = Integer.parseInt(arr1[1]);
-
-
         }
+
+        // 2.
         Arrays.sort(arr, (n1, n2) -> {
             if(n1[0] == n2[0]){
                 return n1[1] - n2[1];

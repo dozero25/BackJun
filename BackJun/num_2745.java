@@ -15,6 +15,8 @@ public class num_2745 {
 
         int sum = 0;
         int c = 0;
+
+        // 1.
         for(int i = zin.length - 1; i >= 0; i--){
 
             if(zin[i] >= 'A' && zin[i] <= 'Z'){
@@ -28,7 +30,6 @@ public class num_2745 {
                 sum += Double.parseDouble(s);
                 c++;
             }
-            System.out.println(sum);
         }
         bw.write(String.valueOf((int)sum));
 

@@ -11,6 +11,7 @@ public class num_10952 {
         StringTokenizer st;
         String str;
 
+        // 1.
         while((str = br.readLine()) != null){
             st = new StringTokenizer(str);
 

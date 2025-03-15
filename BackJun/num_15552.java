@@ -9,6 +9,7 @@ public class num_15552 {
 
         int cnt = Integer.parseInt(br.readLine());
 
+        // 1.
         for(int i = 0; i < cnt; i++){
             String[] arr = br.readLine().split(" ");
             bw.write(Integer.parseInt(arr[0]) + Integer.parseInt(arr[1]) + "\n");

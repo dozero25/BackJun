@@ -14,6 +14,7 @@ public class num_1316 {
 
         int count = 0;
 
+        // 2.
         for(int i = 0; i < num; i++){
             String str = br.readLine();
 
@@ -26,7 +27,9 @@ public class num_1316 {
         br.close();
     }
 
+    // 1.
     public static boolean check(String str){
+        // 1-1
         String[] arr = str.split("");
 
         Map<String, Integer> map = new HashMap<>();
@@ -34,10 +37,11 @@ public class num_1316 {
         for(int i = 0; i < arr.length; i++){
             map.put(arr[i], map.getOrDefault(arr[i], 0) +1);
         }
-
+        // 1-2
         for(String s : map.keySet()){
             int index = str.indexOf(s);
 
+            // 1-2-1
             while(true){
                 if(map.get(s) == 1){
                     break;

@@ -8,6 +8,7 @@ public class num_2480 {
 
         Scanner sc = new Scanner(System.in);
 
+        // 1.
         Map<String, Integer> map = new HashMap<>();
 
         int m = 0;
@@ -24,6 +25,7 @@ public class num_2480 {
             map.put(key, map.getOrDefault(key, 0) +1);
         }
 
+        // 2.
         for(String key : map.keySet()){
             int n = Integer.parseInt(key);
             if(map.size() == 1){

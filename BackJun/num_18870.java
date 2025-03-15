@@ -13,17 +13,20 @@ public class num_18870 {
 
         StringBuilder sb = new StringBuilder();
 
+        // 1.
         int count = Integer.parseInt(br.readLine());
 
         int[] arr = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
         int[] answer = arr.clone();
 
+        // 2.
         Map<Integer, Integer> map = new HashMap<>();
 
         Arrays.sort(arr);
 
         int rank = 0;
 
+        // 3.
         for(int n : arr){
             if(!map.containsKey(n)){
                 map.put(n, rank);
@@ -31,6 +34,7 @@ public class num_18870 {
             }
         }
 
+        // 4.
         for(int i = 0; i < answer.length; i++){
             if(i == answer.length - 1){
                 sb.append(map.get(answer[i]));

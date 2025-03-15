@@ -10,6 +10,7 @@ public class num_2439 {
 
         int cnt = Integer.parseInt(br.readLine());
 
+        // 1.
         for(int i = 0; i < cnt; i++){
             for(int j = 1; j < cnt - i; j++){ // 0 1 2 3
                 bw.write(" ");
