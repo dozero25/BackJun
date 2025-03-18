@@ -8,6 +8,7 @@ public class Main {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+        // 1.
         int c1 = Integer.parseInt(br.readLine());
         int[] ar1 = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
 
@@ -18,6 +19,7 @@ public class Main {
 
         Map<String, Integer> map = new HashMap<>();
 
+        // 2. 
         for(int i = 0; i < c1; i++){
             map.put(String.valueOf(ar1[i]), map.getOrDefault(String.valueOf(ar1[i]), 0) + 1);
         }
@@ -26,6 +28,7 @@ public class Main {
             map.put(String.valueOf(ar2[i]), map.getOrDefault(String.valueOf(ar2[i]), 0) + 1);
         }
 
+        // 3.
         for(int i = 0; i < c2; i++){
             if(map.get(String.valueOf(ar2[i])) == 2){
                 sb.append(1).append(" ");
