@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class Main {
+public class num_12789 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

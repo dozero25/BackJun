@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Stack;
 
-public class Main {
+public class num_10773 {
 
     public static void main(String[] args) throws IOException {
 

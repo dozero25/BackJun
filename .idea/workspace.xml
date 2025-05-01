@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd02a1f1-3e86-4a04-9fc7-f5ba2152d965" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BackJun/num_12789/num_12789.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackJun/num_18258/num_18258.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackJun/num_12789.md" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_12789/num_12789.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackJun/num_10773/num_10773.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_10773/num_10773.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackJun/num_12789/num_12789.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_12789/num_12789.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackJun/num_18258.md" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_18258/num_18258.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackJun/num_4949/num_4949.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_4949/num_4949.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,32 +55,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dozero/backjun&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/dozero/backjun",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;XML&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "XML"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\dozero\backjun\BackJun" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dozero\backjun\BackJun\num_18258" />
       <recent name="C:\dozero\backjun\BackJun\num_12789" />
       <recent name="C:\dozero\backjun\BackJun\num_4949" />
       <recent name="C:\dozero\backjun\BackJun\num_9012" />
       <recent name="C:\dozero\backjun\BackJun\num_10773" />
-      <recent name="C:\dozero\backjun\BackJun\num_28278" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pccp.연습장.gisaExam" />
