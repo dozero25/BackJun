@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd02a1f1-3e86-4a04-9fc7-f5ba2152d965" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BackJun/num_18258/num_18258.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackJun/num_2164/num_2164.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackJun/num_10773/num_10773.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_10773/num_10773.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackJun/num_12789/num_12789.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_12789/num_12789.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackJun/num_18258.md" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_18258/num_18258.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackJun/num_4949/num_4949.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_4949/num_4949.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackJun/num_2164.md" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_2164/num_2164.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +73,11 @@
       <recent name="C:\dozero\backjun\BackJun" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dozero\backjun\BackJun\num_2164" />
       <recent name="C:\dozero\backjun\BackJun\num_18258" />
       <recent name="C:\dozero\backjun\BackJun\num_12789" />
       <recent name="C:\dozero\backjun\BackJun\num_4949" />
       <recent name="C:\dozero\backjun\BackJun\num_9012" />
-      <recent name="C:\dozero\backjun\BackJun\num_10773" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pccp.연습장.gisaExam" />
