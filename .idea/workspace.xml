@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="cd02a1f1-3e86-4a04-9fc7-f5ba2152d965" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackJun/num_11866/num_11866.md" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_11866/num_11866.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackJun/num_12789/num_12789.md" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_12789/num_12789.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackJun/num_18258/num_18258.md" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_18258/num_18258.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackJun/num_2164/num_2164.md" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_2164/num_2164.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackJun/num_2346/num_2346.md" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_2346/num_2346.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackJun/num_28278/num_28278.md" beforeDir="false" afterPath="$PROJECT_DIR$/BackJun/num_28278/num_28278.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +60,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/dozero/goodgame.gg-main/goodgame.gg-main",
+    "last_opened_file_path": "C:/dozero/backjun",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -71,11 +77,11 @@
       <recent name="C:\dozero\backjun\BackJun" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dozero\backjun\BackJun\num_2346" />
       <recent name="C:\dozero\backjun\BackJun\num_28279" />
       <recent name="C:\dozero\backjun\BackJun\num_11866" />
       <recent name="C:\dozero\backjun\BackJun\num_2164" />
       <recent name="C:\dozero\backjun\BackJun\num_18258" />
-      <recent name="C:\dozero\backjun\BackJun\num_12789" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pccp.연습장.gisaExam" />
